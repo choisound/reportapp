@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api/': {    // api为代理接口
-          target: 'http://localhost:8888/',    // 这里我代理到本地服务
+          target: 'http://175.24.115.159:8888/',    // 这里我代理到本地服务
           changeOrigin: true,
           
      }
@@ -56,7 +56,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
 
     /**
      * Source Maps
